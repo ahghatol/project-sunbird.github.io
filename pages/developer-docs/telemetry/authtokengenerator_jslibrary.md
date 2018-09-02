@@ -1,13 +1,17 @@
 ---
 type: landing
 directory: developer-docs/telemetry
-title: AuthToken Generator JS Library
-page_title: AuthToken generator JS library
-description: AuthToken generator JS library
+title: AuthToken Generation
+page_title: AuthToken Generation
+description: AuthToken Generation
 published: true
 allowSearch: true
 ---
+There are different tools available to generate auth token.
+
 ## Methods
+1. AuthToken Generator JS Library
+
 
 The following API methods are provided by the AuthToken generator library
 
@@ -29,6 +33,9 @@ secret- "secret" of the JWT Credential For ex: '07c6e2t1rb92987fnrd705jkk8582p9e
 <pre>
 refresh: function(oldAuthToken) { }
 </pre>
+
+### Generate JWT With Bash
+Authtoken can be generated using the bash script too, please refer blog for this <a href="https://willhaley.com/blog/generate-jwt-with-bash/" target="_blank">https://willhaley.com/blog/generate-jwt-with-bash/</a> 
 
 ## How to generate authorization credentials
 
